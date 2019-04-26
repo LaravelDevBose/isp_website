@@ -1,0 +1,176 @@
+ @media  print {
+     #invoice-POS {
+         padding: 2mm;
+         margin: 0 auto;
+         width: 240px;
+         background: #FFF;
+
+     }
+     ::selection {
+         background: #f31544;
+         color: #FFF;
+     }
+
+     ::moz-selection {
+         background: #f31544;
+         color: #FFF;
+     }
+
+     h1 {
+         font-size: 1.5em;
+         color: #222;
+     }
+
+     h3 {
+         font-size: 1.2em;
+         font-weight: 300;
+         line-height: 2em;
+     }
+
+     p {
+         font-size: .7em;
+         color: #666;
+         line-height: 1.2em;
+     }
+
+     #top, #mid, #bot { /* Targets all id with 'col-' */
+         border-bottom: 1.5px solid #EEE;
+     }
+
+     #top {
+         min-height: 80px;
+     }
+
+     #mid {
+         min-height: 60px;
+     }
+
+     #bot {
+         min-height: 50px;
+     }
+
+     #top .logo {
+         float: left;
+         height: 60px;
+         width: 60px;
+         padding-top: 20px;
+     }
+     #top .logo img{
+         width: 55px;
+         height: 55px;
+         border-radius: 50%;
+     }
+     #top .info {
+         display: block;
+         float: left;
+         margin-left: 0;
+         padding: 2px;
+     }
+     #top .info h2{
+         text-align: center;
+         margin-bottom: 3px;
+         font-size: 1em;
+     }
+     #top .info p {
+         margin-top: 2px;
+     }
+     #top .info p span{
+         display: block;
+         font-size: 11px;
+     }
+     #mid .info{
+
+     }
+     #mid .info h2{
+         font-size: 1em;
+         margin: 0;
+     }
+     #mid .info p{
+         margin-top: 2px;
+     }
+     .title {
+         float: right;
+     }
+
+     .title p {
+         text-align: right;
+     }
+
+     table {
+         width: 100%;
+         border-collapse: collapse;
+     }
+
+     td {
+         /*/ / padding: 5 px 0 5 px 15 px;*/
+         /*/ / border: 1 px solid #EEE*/
+     }
+
+     .tabletitle {
+         padding: 5px;
+         font-size: .5em;
+         background: #EEE;
+     }
+
+     table thead tr th h2{
+         margin-bottom: 2px;
+     }
+
+     .service {
+         border-bottom: 1px solid #EEE;
+     }
+
+     .item {
+         width: 24mm;
+     }
+     .qty{
+         width: 20mm;
+         text-align: center;
+     }
+     .itemtext {
+         font-size: .6em;
+         line-height: 15px;
+     }
+     .stotal{
+         text-align: right;
+         padding-right: 7px;
+     }
+     .head{
+         text-align: right;
+         padding-right: 15px;
+     }
+     .payment{
+         text-align: right;
+         padding-right: 10px;
+     }
+     .head h2, .payment h2{
+         margin-bottom: 3px;
+     }
+
+     .footer {
+         background: #f5f5f5b0;
+     }
+     .footeritem {
+         padding: 5px;
+         font-size: .5em;
+         color: #4b4b4b;
+     }
+     .author{
+         min-width: 50px;
+         padding-top: 20px;
+         padding-left: 60%;
+     }
+     .author p{
+         display: block;
+         text-align: right;
+         border-top:1px solid #000 ;
+         width: max-content;
+     }
+     #legalcopy {
+         margin-top: 5mm;
+     }
+     .legal span{
+         display: block;
+     }
+
+ }

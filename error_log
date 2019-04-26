@@ -1,0 +1,1 @@
+[18-Mar-2019 06:58:57 UTC] PHP Fatal error:  Allowed memory size of 201326592 bytes exhausted (tried to allocate 24576 bytes) in /home/brainchild1soft/tuhin.brainchildsoft.com/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 136
